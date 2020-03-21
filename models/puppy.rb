@@ -1,7 +1,7 @@
 class Puppy
   attr_accessor :name, :breed, :age
   
-  def initialize(params.values)
+  def initialize()
     @name = params[0]
     @breed = params[1]
     @age = params[2]
